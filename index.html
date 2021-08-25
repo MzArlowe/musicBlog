@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Raleway:wght@100;200;300;500&family=Roboto+Condensed:wght@300;400;700&display=swap"
+        rel="stylesheet">
+
+    <link ref="text/css" rel="stylesheet" href="style.css" />
+    <title>Music Blog</title>
+    <!-- 
+        Holds Meta Data / information we don't see. 
+            - links, viewport info, document title, etc.
+     -->
+
+    <!-- 3 ways to use csswith our doc:
+        1. Embed the CSS within the <style> tag.
+        2. Inline styling within another element.
+        3. Link a stylesheet to our HTML document. -->
+    <!-- <style>
+        body {
+            background-color: lightgrey;
+        }
+    </style> -->
+</head>
+<!-- <body style="background-color: green;"> -->
+
+<body>
+
+    <header>
+        <h1>Music Blog</h1>
+
+        <nav>
+            <ul>
+                <!-- (li>span{Home})+(li>a)*3 -->
+                <li><span>Home</span></li>
+                <li><a href="#">Get Started</a></li>
+                <li><a href="$">Photos</a></li>
+                <li><a href="%">Forum</a></li>
+            </ul>
+
+        </nav>
+    </header>
+
+    <section>
+        <h2>Welcome</h2>
+        <!-- Main specifies the main content.
+        There can only be one!
+        Cannot be a descendant (child) of: 
+            - header, nav, article, aside, footer -->
+        <main>
+            <article>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quidem a et amet minima unde libero
+                    perspiciatis expedita numquam, tenetur omnis praesentium enim beatae! Dolorem assumenda blanditiis
+                    error, a expedita eaque.</p>
+
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nulla ullam eum maiores placeat nisi odit
+                    et, pariatur, aliquid omnis, recusandae vero excepturi! Delectus pariatur alias quo suscipit
+                    veritatis facilis placeat?</p>
+
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum recusandae id reiciendis,
+                    distinctio, quia odit deleniti at minus nulla quo aspernatur inventore! Perspiciatis, quisquam.
+                    Eaque quo temporibus iste velit totam!</p>
+
+
+            </article>
+
+            <aside>
+                <h2>Favorite Albums</h2>
+
+                <!-- (a>img)*4 -->
+
+                <a target="_blank" href="./assets/AlanisM.jpg"><img src="./assets/AlanisM.jpg"
+                        alt="Alanis Morrisette - Broken Little Pill"></a>
+                <a target="_blank" href="./assets/Livecopper.jpeg"><img src="./assets/Livecopper.jpeg"
+                        alt="LIVE - Throwing Copper"></a>
+                <a target="_blank" href="./assets/MelonCollie.jpg"><img src="./assets/MelonCollie.jpg"
+                        alt="Smashing Pumpkins - Melon Collie and the Infinite Sadness"></a>
+                <a target="_blank" href="./assets/Reload.jpg"><img src="./assets/Reload.jpg"
+                        alt="Metallica - Reloaded"></a>
+
+            </aside>
+
+        </main>
+
+    </section>
+
+    <!-- Footers can contain: Authorship info, copyright, contact info, social media, sitemap, etc. -->
+    <footer>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis vitae illo dignissimos recusandae ducimus
+            dolores? Dolores voluptate quia corrupti porro aspernatur magnam minima illum! Natus explicabo error
+            obcaecati omnis ea!</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptas, neque ea eaque expedita quam vel
+            similique fugit veritatis iste officiis.</p>
+        <p>Copyright - 2021</p>
+    </footer>
+
+</body>
+
+</html>
